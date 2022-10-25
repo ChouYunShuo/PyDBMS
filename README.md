@@ -1,4 +1,5 @@
 # PyDBMS
+
 A single user CLI DBMS in python.
 
 #### Usage
@@ -9,25 +10,16 @@ Suppoerted SQL commands can be find in PyDBMS/SQL.g4,
 
 For instance, to use a database with commands,
 
-SQL: CREATE DATABASE db_name;  USE db_name: CREATE Table_name (fields...);
+SQL: CREATE DATABASE db_name; USE db_name: CREATE Table_name (fields...);
 
- to change settinngs for database tables, use 
+to change settinngs for database tables, use
 
-ALTER TABLE tb_name ADD CONSTRAINT PRIMARY KEY (pkfield), 
+ALTER TABLE tb_name ADD CONSTRAINT PRIMARY KEY (pkfield),
 
 ALTER TABLE tb_name ADD CONSTRAINT fk_name FOREIGN KEY (fk_field...) REFERENCE ref_table(ref_fields...)
 
-
-
 #### Architecture
 
-/Users/yunshuo/Desktop/job/projects/PyDBMS-master/pic/system.jpg
+![Alt text](pic/system.jpg?raw=true "System Architecture")
 
-
-
-
-
-#### 
-
-
-
+####
