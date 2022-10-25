@@ -21,7 +21,7 @@ ALTER TABLE tb_name ADD CONSTRAINT fk_name FOREIGN KEY (fk_field...) REFERENCE r
 
 #### Architecture
 
-#### ![system](/Users/elliot0412/Desktop/fifth_grade/data_base/dbms/PyDBMS-master/Mydbms/pic/system.jpg)
+/Users/yunshuo/Desktop/job/projects/PyDBMS-master/pic/system.jpg
 
 
 
